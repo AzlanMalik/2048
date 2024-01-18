@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: game-2048
+spec:
+  containers:
+  - name: game-2048
+    image: azlanmalik/game-2048:v1
+    ports:
+    - containerPort: 80
